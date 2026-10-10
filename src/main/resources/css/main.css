@@ -1,0 +1,47 @@
+.root {
+    -fx-background-color: #F0F0F3;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+#scrollPane, #scrollPane .viewport {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+#dialogContainer {
+    -fx-background-color: transparent;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.dialog-label {
+    -fx-background-radius: 14;
+    -fx-padding: 8 12 8 12;
+    -fx-text-fill: #1B1B1B;
+}
+
+.user-dialog-box .dialog-label {
+    -fx-background-color: #DCF8C6;
+}
+
+.duke-dialog-box .dialog-label {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 14;
+    -fx-border-width: 1;
+}
+
+#userInput {
+    -fx-background-radius: 8;
+}
+
+#sendButton {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+}
+
+#sendButton:hover {
+    -fx-background-color: #43A047;
+}
